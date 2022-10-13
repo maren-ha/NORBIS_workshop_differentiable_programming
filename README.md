@@ -1,10 +1,14 @@
-# NORBIS_workshop_differentiable_programming
+# NORBIS workshop on differentiable programming
+
+![](https://pbs.twimg.com/profile_images/588692815372103680/8SETYsn3_400x400.jpg)
 
 >This repository contains code, notebooks and further materials for the workshop on **Differentiable programming for flexible modelling with small data** to be held at the 8th Annual NORBIS conference, October 24-28, Rosendal (Norway). 
 
 ## Introduction 
 
 ### What is differentiable programming? 
+
+![](differentiable_programming_overview.jpg)
 
 The success of deep learning in recent years has been fuelled by large volumes of data, such as massive image datasets, that have made purely data-driven modelling by neural networks feasible. 
 However, in many biomedical applications only a much smaller number of observations is available, such that modelling is typically based on the assumption of a more restricted, explicit underlying data-generating model, e.g., a regression model or a system of differential equations. This lacks the flexibility and expressiveness of deep learning models but facilitates explainable knowledge-driven modelling in small data settings. 
