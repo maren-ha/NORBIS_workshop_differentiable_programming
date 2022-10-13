@@ -45,7 +45,17 @@ The low-barrier approach and flexibility of Julia allow to more readily implemen
 
 ### Using Google Colab 
 
+add Colab links (share via Drive?!)
+add explanation from Colab header 
+Pros: 
+Cons: 
+
 ### Using Jupyter 
+
+add description on downloading Julia
+Pros: 
+Cons: 
 
 ## What's in this repository? 
 
+outline structure
