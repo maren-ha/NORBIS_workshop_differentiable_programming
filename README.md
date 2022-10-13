@@ -41,7 +41,7 @@ I recommend that you access the code notebooks for the second, hands-on part of 
 
 Alternatively, you can access the notebooks based on [Jupyter](https://jupyter.org). This requires a local installation of Julia and the `IJulia` package for working with Jupyter notebook inside Julia. 
 
-Either way, you need to first clone or download this repository to your computer.  
+Either way, you need to first **clone or download** this repository to your computer.  
 
 ### Using Google Colab (recommended)
 
@@ -60,8 +60,8 @@ You can either
 Then, follow the instructions at the beginning of the notebook: 
 * run the first cell to install the Julia kernel 
 * re-load the page (by clicking on the :leftwards_arrow_with_hook: icon in the address line of the browser or pressing Ctrl + R)
-* upload the `Project.toml` file from the Github repository (specifying the Julia environment)
-* proceed by running the next cells, checking the installation and installing the package dependencies
+* upload the `Project.toml` file from this Github repository (specifying the Julia environment)
+* proceed by running the next cells, which check the installation and install the package dependencies
 
 ### Using Jupyter 
 
