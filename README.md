@@ -45,7 +45,27 @@ If you want to know more, have a look at the slides of a talk I recently gave ab
 
 ## How to access the code notebooks 
 
+You can access the code notebooks for the second, hands-on part of the workshop either via [Google Colab](https://colab.research.google.com) or based on [Jupyter](https://jupyter.org). 
+
+Either way, you need to first clone or download this repository to your computer.  
+
 ### Using Google Colab 
+
+_Prerequisites:_ You need a Google account (and a small bit of free space on your Google Drive). 
+
+_Instructions:_
+You can either 
+* open the notebooks either direclty by clicking on [this link for the first](insert) or [this link for the second one](insert) and create a copy in your Google Drive (this is important, otherwise you will not be able to modify anything!)
+* or download the `.ipynb` files starting with `Practicals1_Colab...` and `Practicals2_Colab...` from the `notebooks` subfolder, and upload them to your Google Drive. 
+Then, follow the instructions at the beginning of the notebook: 
+* run the first cell to install the Julia kernel 
+* re-load the page (by clicking on the :leftwards_arrow_with_hook: icon in the address line of the browser or pressing Ctrl + R)
+* upload the `Project.toml` file from the Github repository (specifying the Julia environment)
+* proceed by running the next cells, checking the installation and installing the package dependencies
+
+_Pros:_ Requires no local installation of Julia 
+
+_Cons:_ You have to re-install Julia and all the required packages again whenever your Colab runtime crashes or restarts, which will take some time. 
 
 add Colab links (share via Drive?!)
 add explanation from Colab header 
@@ -61,3 +81,6 @@ Cons:
 ## What's in this repository? 
 
 outline structure
+
+
+Since Google Colab typically comes with Python as built-in kernel (not Julia), the Julia kernel has to be installed first whenever you start a new Colab runtime. The notebook starts with a code chunk that does that automatically for you, but
