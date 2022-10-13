@@ -52,15 +52,16 @@ Either way, you need to first **clone or download** this repository to your comp
 ***Cons:*** You have to re-install Julia and all the required packages again whenever your Colab runtime crashes or restarts, which will take some time (~ 5-10 minutes). 
 
 ***Instructions:***
-You can either 
+
+Open a copy of the notebook in your Google Drive: You can either 
 * open the notebooks either direclty by clicking on [this link](insert) and create a copy in your Google Drive (this is important, otherwise you will not be able to modify anything!)
 * or download the `.ipynb` files starting with `Practicals1_Colab...` and `Practicals2_Colab...` from the `notebooks` subfolder, and upload them to your Google Drive. 
-> :zap: **Very important**:zap: Please make a copy of the notebook **straight away** or upload the file to your Google Drive, so that you have a copy in your own Google Drive! Otherwise you will not be able to save any changes and everything you do in the notebook will be lost after you close the tab. 
+> :zap: **Very important**:zap: Please make a copy of the notebook **straight away** or upload the file to your Google Drive, so that you have a copy in your own Google Drive! Otherwise you will not be able to save it and any changes you do in the notebook will be lost after you close the tab. 
 
 Then, follow the instructions at the beginning of the notebook: 
 * run the first cell to install the Julia kernel 
 * re-load the page (by clicking on the :leftwards_arrow_with_hook: icon in the address line of the browser or pressing Ctrl + R)
-* upload the `Project.toml` file from this Github repository (specifying the Julia environment)
+* Clone or download this Github repository and upload the [`Project.toml` file](https://github.com/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/Project.toml) to your Google Drive (Click on "Files" in the left menu, then on the upload icon, then select the file)
 * proceed by running the next cells, which check the installation and install the package dependencies
 
 ### Using Jupyter 
@@ -75,7 +76,7 @@ outline structure
 
 ## A note about my choice of programming language 
 
-All code for the workshop notebooks is written in [Julia](https://julialang.org). Since I am often asked "why Julia?!", here are some of my personal reasons: *Julia...* 
+All code for the workshop notebooks is written in [Julia](https://julialang.org). Since I am often asked "why Julia?!", here are some of my personal reasons: Julia...
 
 * is a young programming language developed as a fresh and pragmatic approach to scientific computing, combining performance and speed with ease of use
 * provides a "low-barrier approach" to state-of-the-art methods development for biostatistics 
