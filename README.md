@@ -21,56 +21,47 @@ Instead of viewing these modelling paradigms as opposing approaches to data anal
 
 ### What to expect in this workshop
 
-In this workshop, participants will get familiar with differentiable programming in theory and practice and will get hands-on experience on an exemplary biomedical small data problem tackled by differentiable programming. In the first part of the workshop, the participants will gain a deeper understanding of the core ideas and inner workings of differentiable programming through group reading and discussions. The second part of the workshop will focus on coding examples provided in Colab or Jupyter notebooks. Specifically, the participants will get hands-on experience using automatic differentiation in small examples, to see the technology "in action", before re-implementing a more complex model that integrates neural networks and differential equations to infer patients' disease trajectories in a small data scenario.
-
-### A note about my choice of programming language 
-
-All code for the workshop notebooks is written in the [Julia](https://julialang.org) programming language. As a rather young programming language, Julia has been developed as a fresh and pragmatic approach to scientific computing, providing a low-barrier approach to state-of-the-art methods development for biostatistics. Specifically, using Julia allows for easily picking up emerging modelling trends, such as differentiable programming, which requires straightforward access to automatic differentiation libraries. 
-
-I believe that Julia allows to more readily implement scientific ideas that researchers might not have pursued with other tools, specifically when it comes to flexibly integrating different modelling paradigms. I will show this flexibility both in some simple examples and based on a more complex model, where combining deep learning with dynamic modelling allows for describing individual-specific disease trajectories, despite a relatively small number of patients and few and irregular follow-up time points.
-
-If you want to know more, have a look at the slides of a talk I recently gave about why I use Julia in the `resources` subfolder :blush:  
+In this workshop, participants will get familiar with differentiable programming in theory and practice and will get hands-on experience on an exemplary biomedical small data problem tackled by differentiable programming. In the first part of the workshop, the participants will gain a deeper understanding of the core ideas and inner workings of differentiable programming through demo code examples to see the technique "in action", group reading and discussions. The second part of the workshop will focus on hands-on coding examples provided in Colab or Jupyter notebooks. Specifically, we will re-implement a [more complex model](https://github.com/maren-ha/DeepDynamicModelingWithJust2TimePoints) that integrates neural networks and differential equations to infer patients' disease trajectories in a small data scenario.
 
 ## Workshop schedule 
 
 **Tuesday, October 25, 2022**
-| :alarm_clock: | :point_down:                                                                    |
-| ------------- | ------------------------------------------------------------------------------- |
-| 9:00 - 9:15   | Introduction :wave:                                                             |
-| 9:15 - 9:45   | What is "small data"?  :speech_balloon:                                                    |
-| 9:45 - 10:30  | What is differentiable programming? :books: + :speech_balloon:                           |
+| :alarm_clock: | :point_down: |
+| ------------- | ------------ |
+| 9:00 - 9:15   | Welcome :wave:                                                             |
+| 9:15 - 9:35   | Intro to small data and differentiable programming - demo examples :computer:                                                    |
+| 9:35 - 10:30  | What is differentiable programming? - core concepts :books: + :speech_balloon:                           |
 | 10:30 - 11:00 | Coffee break :coffee:                                                           |
-| 11:00 - 11:30 | Automatic differentiation in action :clap: :computer:                           |
-| 11:30 - 12:30 | Neural networks + dynamic modeling for a small data challenge :clap: :computer: |
+| 11:00 - 11:30 | Differentiable programming + small data concepts ctd. :speech_balloon: :pencil:                           |
+| 11:30 - 12:30 | Neural networks + dynamic modeling for a small data challenge - hands-on :clap: :computer: |
 
 ## How to access the code notebooks 
 
-You can access the code notebooks for the second, hands-on part of the workshop either via [Google Colab](https://colab.research.google.com) or based on [Jupyter](https://jupyter.org). 
+I recommend that you access the code notebooks for the second, hands-on part of the workshop via [Google Colab](https://colab.research.google.com), see below for more details. This will install Julia and all packages on your Google Colab runtime and require no local installation. 
+
+Alternatively, you can access the notebooks based on [Jupyter](https://jupyter.org). This requires a local installation of Julia and the `IJulia` package for working with Jupyter notebook inside Julia. 
 
 Either way, you need to first clone or download this repository to your computer.  
 
-### Using Google Colab 
+### Using Google Colab (recommended)
 
-_Prerequisites:_ You need a Google account (and a small bit of free space on your Google Drive). 
+***Prerequisites:*** You need a Google account (and a small bit of free space on your Google Drive). 
 
-_Instructions:_
+***Pros:*** Requires no local installation of Julia, no OS-dependent intricacies when installing packages etc.   
+
+***Cons:*** You have to re-install Julia and all the required packages again whenever your Colab runtime crashes or restarts, which will take some time (~ 5-10 minutes). 
+
+***Instructions:***
 You can either 
-* open the notebooks either direclty by clicking on [this link for the first](insert) or [this link for the second one](insert) and create a copy in your Google Drive (this is important, otherwise you will not be able to modify anything!)
+* open the notebooks either direclty by clicking on [this link](insert) and create a copy in your Google Drive (this is important, otherwise you will not be able to modify anything!)
 * or download the `.ipynb` files starting with `Practicals1_Colab...` and `Practicals2_Colab...` from the `notebooks` subfolder, and upload them to your Google Drive. 
+> :zap: **Very important**:zap: Please make a copy of the notebook **straight away** or upload the file to your Google Drive, so that you have a copy in your own Google Drive! Otherwise you will not be able to save any changes and everything you do in the notebook will be lost after you close the tab. 
+
 Then, follow the instructions at the beginning of the notebook: 
 * run the first cell to install the Julia kernel 
 * re-load the page (by clicking on the :leftwards_arrow_with_hook: icon in the address line of the browser or pressing Ctrl + R)
 * upload the `Project.toml` file from the Github repository (specifying the Julia environment)
 * proceed by running the next cells, checking the installation and installing the package dependencies
-
-_Pros:_ Requires no local installation of Julia 
-
-_Cons:_ You have to re-install Julia and all the required packages again whenever your Colab runtime crashes or restarts, which will take some time. 
-
-add Colab links (share via Drive?!)
-add explanation from Colab header 
-Pros: 
-Cons: 
 
 ### Using Jupyter 
 
@@ -82,5 +73,15 @@ Cons:
 
 outline structure
 
+## A note about my choice of programming language 
 
-Since Google Colab typically comes with Python as built-in kernel (not Julia), the Julia kernel has to be installed first whenever you start a new Colab runtime. The notebook starts with a code chunk that does that automatically for you, but
+All code for the workshop notebooks is written in [Julia](https://julialang.org). Since I am often asked "why Julia?!", here are some of my personal reasons: *Julia...* 
+
+* is a young programming language developed as a fresh and pragmatic approach to scientific computing, combining performance and speed with ease of use
+* provides a "low-barrier approach" to state-of-the-art methods development for biostatistics 
+* allows for easily picking up emerging modelling trends, such as differentiable programming, which requires straightforward access to automatic differentiation libraries
+*  allows to more readily implement scientific ideas that researchers might not have pursued with other tools, specifically when it comes to flexibly integrating different modelling paradigms. 
+
+I will showcase this flexibility in a small data scenario, where combining deep learning with dynamic modelling allows for describing individual-specific disease trajectories, despite a relatively small number of patients and few and irregular follow-up time points, based on [our paper](https://doi.org/10.1002/bimj.202000366).
+
+If you want to know more, I've uploaded the slides of a talk I recently gave about why I use Julia in the `resources` subfolder :blush:
