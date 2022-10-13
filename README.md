@@ -1,6 +1,6 @@
 # NORBIS workshop on differentiable programming
 
-![](https://pbs.twimg.com/profile_images/588692815372103680/8SETYsn3_400x400.jpg)
+![](https://pbs.twimg.com/profile_images/588692815372103680/8SETYsn3_400x400.jpg =100x100)
 
 >This repository contains code, notebooks and further materials for the workshop on **Differentiable programming for flexible modelling with small data** to be held at the 8th Annual NORBIS conference, October 24-28, Rosendal (Norway). 
 
