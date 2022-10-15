@@ -41,34 +41,47 @@ I recommend that you access the code notebooks for the second, hands-on part of 
 
 Alternatively, you can access the notebooks based on [Jupyter](https://jupyter.org). This requires a local installation of Julia and the `IJulia` package for working with Jupyter notebook inside Julia. 
 
-Either way, you need to first **clone or download** this repository to your computer.  
+***Step 1:*** **Clone or download** this repository to your computer: On the Github page, click the green "code" button, and copy the url to clone the repo or click on "download zip", and then extract. 
 
-### Using Google Colab (recommended)
+![](pictures/CloneRepo.png)
 
-***Prerequisites:*** You need a Google account (and a small bit of free space on your Google Drive). 
+***Next steps:*** Depending on whether you use Google Colab to run the notebook (recommended) or Jupyter notebooks. Please read below for details. 
 
-***Pros:*** Requires no local installation of Julia, no OS-dependent intricacies when installing packages etc.   
+### a) using Google Colab (recommended)
 
-***Cons:*** You have to re-install Julia and all the required packages again whenever your Colab runtime crashes or restarts, which will take some time (~ 5-10 minutes). 
+* ***Prerequisites:*** You need a Google account (and a small bit of free space on your Google Drive). 
+* ***Pros:*** Requires no local installation of Julia, no OS-dependent intricacies when installing packages etc.   
+* ***Cons:*** You have to re-install Julia and all the required packages again whenever your Colab runtime crashes or restarts, which will take some time (~ 5-10 minutes). 
+* ***Instructions:***
+  * get a copy of the notebook to your Google Drive: Open the notebook... <a href="https://colab.research.google.com/github/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/Colab_Practicals.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
+   * ... and create a copy in your Google Drive 
+> :zap: **Very important**:zap: Please make a copy of the notebook **straight away** or upload the `Colab_Practicals.ipynb` file from the repository to your Google Drive, so that you have a copy in your own Google Drive! Otherwise you will not be able to save it and any changes you do in the notebook will be lost after you close the tab. 
+* After you have copied the notebook to your drive: 
+  * run the first cell to install the Julia kernel 
+  * re-load the page (by clicking on the :leftwards_arrow_with_hook: icon in the address line of the browser or pressing Ctrl + R)
+  *  upload the [`Project.toml` file](https://github.com/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/Project.toml) from this repo to your Google Drive (Click on "Files" in the left menu, then on the upload icon, then select the file)
+   * proceed by running the next cells, which check the installation and install the package dependencies
 
-***Instructions:***
+### b) using Jupyter 
 
-Open a copy of the notebook in your Google Drive: You can either 
-* open the notebooks either direclty by clicking on [this link](insert) and create a copy in your Google Drive (this is important, otherwise you will not be able to modify anything!)
-* or download the `.ipynb` files starting with `Practicals1_Colab...` and `Practicals2_Colab...` from the `notebooks` subfolder, and upload them to your Google Drive. 
-> :zap: **Very important**:zap: Please make a copy of the notebook **straight away** or upload the file to your Google Drive, so that you have a copy in your own Google Drive! Otherwise you will not be able to save it and any changes you do in the notebook will be lost after you close the tab. 
+If you don't have a Google account, or prefer to have everything installed locally on your computer, you can use Julia inside Jupyter. 
 
-Then, follow the instructions at the beginning of the notebook: 
-* run the first cell to install the Julia kernel 
-* re-load the page (by clicking on the :leftwards_arrow_with_hook: icon in the address line of the browser or pressing Ctrl + R)
-* Clone or download this Github repository and upload the [`Project.toml` file](https://github.com/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/Project.toml) to your Google Drive (Click on "Files" in the left menu, then on the upload icon, then select the file)
-* proceed by running the next cells, which check the installation and install the package dependencies
+* ***Pros:*** Afer you have installed everything once, you can easily go back and modify things and play around, without having to wait for all packages to be installed and precompiled again on a fresh Colab runtime. Everything will already be there and much faster after first precompilation. 
+* ***Cons:*** You have to install Julia and all the required packages locally on your computer, which can sometimes cause the usual conflicting versions issues etc., and might need some manual debugging at first (but it's typically really smooth, I do encourage you to try it out anyway :wink:)
+* ***Instructions:***
+  * download and install Julia: either the [current stable release v1.8](https://julialang.org/downloads/#current_stable_release) or v1.7.2, which I've installed in the Google Colab environment, available from the [older releases page](https://julialang.org/downloads/oldreleases/). 
+  * open Julia (OS-dependent, but you should generally find a Julia icon somewhere in your programs or applications folder, on which you can double-click)
+  * you should see the Julia REPL. Type in the following commands
+    * `using Pkg` to use the package manager, 
+    * `Pkg.add("IJulia")` to add the `IJulia` package needed to run Jupyter notebooks![](pictures/JuliaREPL.png) 
+    * `using IJulia` to include the package
+    * `installkernel("Julia")` to install the Julia kernel for Jupyter
+    * `notebook()` to open a fresh Jupyter instance
+  ![](pictures/JuliaREPL_notebook.png)
+    * navigate to your local copy of the workshop repository in your file system and open the `Jupyter_Practicals.ipynb` file
+  ![](pictures/Jupyter.png)
 
-### Using Jupyter 
-
-add description on downloading Julia
-Pros: 
-Cons: 
+For more details on IJulia, see [the docs](https://julialang.github.io/IJulia.jl/stable/).
 
 ## What's in this repository? 
 
