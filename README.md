@@ -98,4 +98,4 @@ All code for the workshop notebooks is written in [Julia](https://julialang.org)
 
 I will showcase this flexibility in a small data scenario, where combining deep learning with dynamic modelling allows for describing individual-specific disease trajectories, despite a relatively small number of patients and few and irregular follow-up time points, based on [our paper](https://doi.org/10.1002/bimj.202000366).
 
-If you want to know more, I've uploaded the slides of a talk I recently gave about why I use Julia in the `resources` subfolder :blush:
+If you want to know more, I've uploaded the [slides](https://github.com/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/resources/WhyJulia.pdf) of a talk I recently gave about why I use Julia in the `resources` subfolder :blush:
