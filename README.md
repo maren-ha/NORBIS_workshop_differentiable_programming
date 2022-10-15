@@ -74,13 +74,13 @@ If you don't have a Google account, or prefer to have everything installed local
   * you should see the Julia REPL. Type in the following commands
     * `using Pkg` to use the package manager, 
     * `Pkg.add("IJulia")` to add the `IJulia` package needed to run Jupyter notebooks 
-  <img src=pictures/JuliaREPL.png width="300" height="170" />
+  <img src=pictures/JuliaREPL.png />
     * `using IJulia` to include the package
     * `installkernel("Julia")` to install the Julia kernel for Jupyter
     * `notebook()` to open a fresh Jupyter instance      
-  <img src=pictures/JuliaREPL_notebook.png width="300" height="170" />
+  <img src=pictures/JuliaREPL_notebook.png />
     * navigate to your local copy of the workshop repository in your file system and open the `Jupyter_Practicals.ipynb` file
-  <img src=pictures/Jupyter.png width="300" height="170" />
+  <img src=pictures/Jupyter.png  />
 For more details on IJulia, see [the docs](https://julialang.github.io/IJulia.jl/stable/).
 
 ## What's in this repository? 
