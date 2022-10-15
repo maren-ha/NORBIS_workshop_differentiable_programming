@@ -96,7 +96,7 @@ For more details on IJulia, see [the docs](https://julialang.github.io/IJulia.jl
 * the `elephant` subfolder contains a little fun example of Julia code and showing how you actually *can*  fit an elephant with just 4 parameters
 *  the `pictures` subfolder contains all the `.png`s included in this README and the references document (to ensure they render correctly)
 *  some housekeeping files (the repo is hosted under an MIT license, the `.gitignore`)
-*  this `README.md` :blush: 
+*  this `README.md` 
 
 ## A note about my choice of programming language 
 
