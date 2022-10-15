@@ -21,7 +21,8 @@ Instead of viewing these modelling paradigms as opposing approaches to data anal
 
 ### What to expect in this workshop
 
-In this workshop, participants will get familiar with differentiable programming in theory and practice and will get hands-on experience on an exemplary biomedical small data problem tackled by differentiable programming. In the first part of the workshop, the participants will gain a deeper understanding of the core ideas and inner workings of differentiable programming through demo code examples to see the technique "in action", group reading and discussions. The second part of the workshop will focus on hands-on coding examples provided in Colab or Jupyter notebooks. Specifically, we will re-implement a [more complex model](https://github.com/maren-ha/DeepDynamicModelingWithJust2TimePoints) that integrates neural networks and differential equations to infer patients' disease trajectories in a small data scenario.
+In this workshop, participants will get familiar with differentiable programming in theory and practice and will get hands-on experience on an exemplary biomedical small data problem tackled by differentiable programming. In the first part of the workshop, the participants will gain a deeper understanding of the core ideas and inner workings of differentiable programming through demo code examples to see the technique "in action", group reading and discussions. The second part of the workshop will focus on hands-on coding examples provided in Colab or Jupyter notebooks. Specifically, we will re-implement a [more complex model](https://github.com/maren-ha/DeepDynamicModelingWithJust2TimePoints) that integrates neural networks and differential equations to infer individual patients' disease trajectories in a small data scenario. The model is based on [our paper](https://doi.org/10.1002/bimj.202000366) and my [MSc thesis](https://github.com/maren-ha/MSc-Thesis).
+
 
 ## Workshop schedule 
 
@@ -85,7 +86,17 @@ For more details on IJulia, see [the docs](https://julialang.github.io/IJulia.jl
 
 ## What's in this repository? 
 
-outline structure
+* the notebooks for the demo and hands-on part, in a Google Colab version and a Jupyter notebook version `Colab_Practicals.ipynb` and `Jupyter_Practicals.ipynb`
+* the `Project.toml` file specifying the Julia environment (important to have all packages installed in the correct versions)
+* the slides used during the workshop (currently in a draft version): `Slides_Draft.pdf`
+* the `blogpost` folder contains the material for the reading/joint discussion session:
+  * the blogpost on differentiable programming we will read in the workshop and discuss in groups in a Markdown and pdf version, `Blogpost_What_is_differentiable_programming.md` and `...pdf`,...
+  * and questions to be answered on the blogpost during the discussion session, again in Markdown and pdf, `Questions_for_discussion.md` and `....pdf`
+* the `resources` subfolder contains a list of references used in the workshop and more resources for further reading, structured according to the main workshop topics, including blogposts and code repositories, and the slides of a recent talk I gave about why I use Julia (because I get asked that a lot)
+* the `elephant` subfolder contains a little fun example of Julia code and showing how you actually *can*  fit an elephant with just 4 parameters
+*  the `pictures` subfolder contains all the `.png`s included in this README and the references document (to ensure they render correctly)
+*  some housekeeping files (the repo is hosted under an MIT license, the `.gitignore`)
+*  this `README.md` :blush: 
 
 ## A note about my choice of programming language 
 
@@ -95,7 +106,5 @@ All code for the workshop notebooks is written in [Julia](https://julialang.org)
 * provides a "low-barrier approach" to state-of-the-art methods development for biostatistics 
 * allows for easily picking up emerging modelling trends, such as differentiable programming, which requires straightforward access to automatic differentiation libraries
 *  allows to more readily implement scientific ideas that researchers might not have pursued with other tools, specifically when it comes to flexibly integrating different modelling paradigms. 
-
-I will showcase this flexibility in a small data scenario, where combining deep learning with dynamic modelling allows for describing individual-specific disease trajectories, despite a relatively small number of patients and few and irregular follow-up time points, based on [our paper](https://doi.org/10.1002/bimj.202000366).
 
 If you want to know more, I've uploaded the [slides](https://github.com/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/resources/WhyJulia.pdf) of a talk I recently gave about why I use Julia in the `resources` subfolder :blush:
