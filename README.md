@@ -68,7 +68,7 @@ Alternatively, you can access the notebooks based on [Jupyter](https://jupyter.o
 If you don't have a Google account, or prefer to have everything installed locally on your computer, you can use Julia inside Jupyter. 
 
 * ***Pros:*** Afer you have installed everything once, you can easily go back and modify things and play around, without having to wait for all packages to be installed and precompiled again on a fresh Colab runtime. Everything will already be there and much faster after first precompilation. 
-* ***Cons:*** You have to install Julia and all the required packages locally on your computer, which can sometimes cause the usual conflicting versions issues etc., and might need some manual debugging at first (but it's typically really smooth, I do encourage you to try it out anyway :wink:)
+* ***Cons:*** You have to install Julia and all the required packages locally on your computer, which can sometimes cause conflicting versions issues and might need some OS-dependent manual debugging at first (however it typically works well, so I do encourage you to try it out anyway :wink:)
 * ***Instructions:***
   * download and install Julia: either the [current stable release v1.8](https://julialang.org/downloads/#current_stable_release) or v1.7.2, which I've installed in the Google Colab environment, available from the [older releases page](https://julialang.org/downloads/oldreleases/). 
   * open Julia (OS-dependent, but you should generally find a Julia icon somewhere in your programs or applications folder, on which you can double-click)
