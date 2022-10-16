@@ -46,7 +46,7 @@ Alternatively, you can access the notebooks based on [Jupyter](https://jupyter.o
 
 ![](pictures/CloneRepo.png)
 
-***Next steps:*** Depending on whether you use Google Colab to run the notebook (recommended) or Jupyter notebooks. Please read below for details. 
+***Next steps:*** Depending on whether you use Google Colab (recommended) or Jupyter to run the notebook. Please read below for details. 
 
 ### a) using Google Colab (recommended)
 
