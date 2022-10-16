@@ -15,13 +15,13 @@ to be held at the 8th Annual NORBIS conference, October 24-28, Rosendal (Norway)
 ![](pictures/differentiable_programming_overview.jpg)
 
 The success of deep learning in recent years has been fuelled by large volumes of data, such as massive image datasets, that have made purely data-driven modelling by neural networks feasible. 
-However, in many biomedical applications only a much smaller number of observations is available, such that modelling is typically based on the assumption of a more restricted, explicit underlying data-generating model, e.g., a regression model or a system of differential equations. This lacks the flexibility and expressiveness of deep learning models but facilitates explainable knowledge-driven modelling in small data settings. 
+However, in many biomedical applications only a much smaller number of observations is available, such that modelling is typically based on the assumption of a more restricted, explicit underlying data-generating model, e.g., a regression model or a system of differential equations. This lacks the flexibility and expressiveness of deep learning models but facilitates explainable knowledge-driven modelling in with smaller sample sizes. 
 
-Instead of viewing these modelling paradigms as opposing approaches to data analysis, the recently proposed concept of *differentiable programming* allows for combining their respective advantages and thus addressing complex modelling challenges, in particular for biomedical small data problems. Specifically, differentiable programming facilitates designing models that comprise several potentially distinct building blocks, e.g., neural networks and differential equations, and jointly optimise all model components. This is done by implementing a joint model loss function and using automatic differentiation to get parameter estimates for all model components for gradient-based optimisation. 
+Instead of viewing these modelling paradigms as opposing approaches to data analysis, the concept of *differentiable programming* allows for combining their respective advantages and thus addressing complex modelling challenges, in particular for biomedical small data problems. The core idea is to combine potentially distinct building blocks, e.g., neural networks and differential equations, into one joint model, and optimise all the components together, to get "the best of both worlds". Specifically, this is done by implementing a joint loss function and using automatic differentiation to get parameter estimates for all model components for gradient-based optimisation of the joint loss function. 
 
 ### What to expect in this workshop
 
-In this workshop, participants will get familiar with differentiable programming in theory and practice and will get hands-on experience on an exemplary biomedical small data problem tackled by differentiable programming. In the first part of the workshop, the participants will gain a deeper understanding of the core ideas and inner workings of differentiable programming through demo code examples to see the technique "in action", group reading and discussions. The second part of the workshop will focus on hands-on coding examples provided in Colab or Jupyter notebooks. Specifically, we will re-implement a [more complex model](https://github.com/maren-ha/DeepDynamicModelingWithJust2TimePoints) that integrates neural networks and differential equations to infer individual patients' disease trajectories in a small data scenario. The model is based on [our paper](https://doi.org/10.1002/bimj.202000366) and my [MSc thesis](https://github.com/maren-ha/MSc-Thesis).
+You will get familiar with differentiable programming in theory and practice and will get hands-on experience on an exemplary biomedical small data problem, where we will optimise a model that combines deep learning and dynamic modelling components by differentiable programming. In the first part of the workshop, you will gain a deeper understanding of the core ideas and inner workings of differentiable programming through demo code examples to see the technique "in action", group reading and discussions. The second part of the workshop will focus on hands-on coding examples in the [Julia](https://julialang.org) programming language, provided in Colab or Jupyter notebooks. Specifically, we will re-implement a [more complex model](https://github.com/maren-ha/DeepDynamicModelingWithJust2TimePoints) that integrates neural networks and differential equations to infer individual patients' disease trajectories in a small data scenario. The model is based on [our paper](https://doi.org/10.1002/bimj.202000366) and my [MSc thesis](https://github.com/maren-ha/MSc-Thesis).
 
 
 ## Workshop schedule 
@@ -86,7 +86,7 @@ For more details on IJulia, see [the docs](https://julialang.github.io/IJulia.jl
 
 ## What's in this repository? 
 
-* the notebooks for the demo and hands-on part, in a Google Colab version and a Jupyter notebook version `Colab_Practicals.ipynb` and `Jupyter_Practicals.ipynb`
+* the notebook files for the demo and hands-on part, in a Google Colab version and a Jupyter notebook version `Colab_Practicals.ipynb` and `Jupyter_Practicals.ipynb`
 * the `Project.toml` file specifying the Julia environment (important to have all packages installed in the correct versions)
 * the slides used during the workshop (currently in a draft version): `Slides_Draft.pdf`
 * the `blogpost` folder contains the material for the reading/joint discussion session:
@@ -95,7 +95,7 @@ For more details on IJulia, see [the docs](https://julialang.github.io/IJulia.jl
 * the `resources` subfolder contains a list of references used in the workshop and more resources for further reading, structured according to the main workshop topics, including blogposts and code repositories, and the slides of a recent talk I gave about why I use Julia (because I get asked that a lot)
 * the `elephant` subfolder contains a little fun example of Julia code and showing how you actually *can*  fit an elephant with just 4 parameters
 *  the `pictures` subfolder contains all the `.png`s included in this README and the references document (to ensure they render correctly)
-*  some housekeeping files (the repo is hosted under an MIT license, the `.gitignore`)
+*  some housekeeping files (the repo is hosted under an MIT `LICENSE.md`, the `.gitignore`)
 *  this `README.md` 
 
 ## A note about my choice of programming language 

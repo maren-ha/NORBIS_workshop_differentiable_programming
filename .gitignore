@@ -27,3 +27,4 @@ Manifest.toml
 Blogpost_What_is_differentiable_programming.html
 Questions_for_discussion.html
 simpleADexamples.jl
+.DS_Store
