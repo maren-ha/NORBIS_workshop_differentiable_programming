@@ -6,7 +6,7 @@ This repository contains code, notebooks and further materials for the workshop 
 
 **Differentiable programming for flexible modelling with small data** 
 
-to be held at the 8th Annual NORBIS conference, October 24-28, Rosendal (Norway). 
+to be held at the 8th Annual NORBIS conference, October 24-28, 2022, Rosendal (Norway). 
 
 ## Introduction 
 
