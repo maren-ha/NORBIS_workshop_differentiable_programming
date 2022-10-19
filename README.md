@@ -60,7 +60,7 @@ Alternatively, you can access the notebooks based on [Jupyter](https://jupyter.o
 * After you have copied the notebook to your drive: 
   * run the first cell to install the Julia kernel 
   * re-load the page (by clicking on the :leftwards_arrow_with_hook: icon in the address line of the browser or pressing Ctrl + R)
-  *  upload the [`Project.toml` file](https://github.com/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/Project.toml) from this repo to your Google Drive (Click on "Files" in the left menu, then on the upload icon, then select the file)
+  *  upload the [`Project.toml` file](https://github.com/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/Project.toml) from this repo to your Google Drive (Click on the :open_file_folder: icon in the left menu, then on the :arrow_up: upload icon, then select the file) <img src=pictures/Colab_upload_file.png  />
    * proceed by running the next cells, which check the installation and install the package dependencies
 
 ### b) using Jupyter 
