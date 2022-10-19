@@ -56,7 +56,7 @@ Alternatively, you can access the notebooks based on [Jupyter](https://jupyter.o
 * ***Instructions:***
   * get a copy of the notebook to your Google Drive: Open the notebook... <a href="https://colab.research.google.com/github/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/Colab_Practicals.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
    * ... and create a copy in your Google Drive 
-> :zap: **Very important**:zap: Please make a copy of the notebook **straight away** or upload the `Colab_Practicals.ipynb` file from the repository to your Google Drive, so that you have a copy in your own Google Drive! Otherwise you will not be able to save it and any changes you do in the notebook will be lost after you close the tab. 
+> :zap: **Very important**:zap: Please make a copy of the notebook **straight away** or upload the `Colab_Practicals.ipynb` file from the repository to your Google Drive, so that you have a copy in your own Google Drive! Make sure not execute cells and make changes only to the copy! Otherwise you will not be able to save it and any changes you do in the notebook will be lost after you close the tab. 
 * After you have copied the notebook to your drive: 
   * run the first cell to install the Julia kernel 
   * re-load the page (by clicking on the :leftwards_arrow_with_hook: icon in the address line of the browser or pressing Ctrl + R)
