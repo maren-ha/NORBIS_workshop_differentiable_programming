@@ -34,7 +34,7 @@ You will get familiar with differentiable programming in theory and practice and
 | 9:35 - 10:30  | What is differentiable programming? - core concepts :books: + :speech_balloon:                           |
 | 10:30 - 11:00 | Coffee break :coffee:                                                           |
 | 11:00 - 11:30 | Differentiable programming + small data concepts ctd. :speech_balloon: :pencil:                           |
-| 11:30 - 12:30 | Neural networks + dynamic modeling for a small data challenge - hands-on :clap: :computer: |
+| 11:30 - 12:30 | Neural networks + dynamic modelling for a small data challenge - hands-on :clap: :computer: |
 
 ## How to access the code notebooks 
 
@@ -56,7 +56,7 @@ Alternatively, you can access the notebooks based on [Jupyter](https://jupyter.o
 * ***Instructions:***
   * get a copy of the notebook to your Google Drive: Open the notebook... <a href="https://colab.research.google.com/github/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/Colab_Practicals.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
    * ... and create a copy in your Google Drive 
-> :zap: **Very important**:zap: Please make a copy of the notebook **straight away** or upload the `Colab_Practicals.ipynb` file from the repository to your Google Drive, so that you have a copy in your own Google Drive! Make sure not execute cells and make changes only to the copy! Otherwise you will not be able to save it and any changes you do in the notebook will be lost after you close the tab. 
+> :zap: **Very important**:zap: Please make a copy of the notebook **straight away** or upload the `Colab_Practicals.ipynb` file from the repository to your Google Drive, so that you have a copy in your own Google Drive! Make sure to make changes only to the copy, otherwise you will not be able to save it and any changes you do in the notebook will be lost after you close the tab. 
 * After you have copied the notebook to your drive: 
   * run the first cell to install the Julia kernel 
   * re-load the page (by clicking on the :leftwards_arrow_with_hook: icon in the address line of the browser or pressing Ctrl + R)
