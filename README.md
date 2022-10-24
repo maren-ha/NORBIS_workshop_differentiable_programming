@@ -36,7 +36,7 @@ You will get familiar with differentiable programming in theory and practice and
 | 11:00 - 11:30 | Differentiable programming + small data concepts ctd. :speech_balloon: :pencil:          |
 | 11:30 - 12:30 | Neural networks + dynamic modelling for a small data challenge - hands-on :clap: :computer: |
 
-[**MIRO board link for group discussion**](https://miro.com/welcomeonboard/N1FISHNmeUZ0RUZ2VTdvOTVBWW1MOGQ2V092YTJJY3Q1YzBvczk2TGRoNjZPTEdKWm03d2RoM3hCRFhWYmw1eXwzNDU4NzY0NTI3MjM4MjExMTk3fDI=?share_link_id=557961573552)
+[**Digital white board link for group discussion**](https://browserboard.com/whiteboard/UwBJCNeReWq4kWCfiP9jSF?key=46qMzmS9jEkymASET6hmAT)
 
 ## How to access the code notebooks 
 
