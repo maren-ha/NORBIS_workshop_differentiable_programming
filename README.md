@@ -30,11 +30,13 @@ You will get familiar with differentiable programming in theory and practice and
 | :alarm_clock: | :point_down: |
 | ------------- | ------------ |
 | 9:00 - 9:15   | Welcome :wave:                                                             |
-| 9:15 - 9:35   | Intro to small data and differentiable programming - demo examples :computer:                                                    |
-| 9:35 - 10:30  | What is differentiable programming? - core concepts :books: + :speech_balloon:                           |
+| 9:15 - 9:35   | Intro to small data and differentiable programming - demo examples :computer:            |
+| 9:35 - 10:30  | What is differentiable programming? - core concepts :books: + :speech_balloon:           |
 | 10:30 - 11:00 | Coffee break :coffee:                                                           |
-| 11:00 - 11:30 | Differentiable programming + small data concepts ctd. :speech_balloon: :pencil:                           |
+| 11:00 - 11:30 | Differentiable programming + small data concepts ctd. :speech_balloon: :pencil:          |
 | 11:30 - 12:30 | Neural networks + dynamic modelling for a small data challenge - hands-on :clap: :computer: |
+
+[**MIRO board link for group discussion**](https://miro.com/welcomeonboard/N1FISHNmeUZ0RUZ2VTdvOTVBWW1MOGQ2V092YTJJY3Q1YzBvczk2TGRoNjZPTEdKWm03d2RoM3hCRFhWYmw1eXwzNDU4NzY0NTI3MjM4MjExMTk3fDI=?share_link_id=557961573552)
 
 ## How to access the code notebooks 
 
