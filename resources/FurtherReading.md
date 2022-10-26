@@ -14,13 +14,13 @@
 
 ## Differentiable programming 
 
-:globe_with_meridians: [What is differentiable programming?](https://fluxml.ai/blog/2019/02/07/what-is-differentiable-programming.html)
+:globe_with_meridians: [What is differentiable programming?](https://fluxml.ai/blog/2019/02/07/what-is-differentiable-programming.html) -- blogpost used in the workshop for group reading + discussion
 
-:globe_with_meridians: [Engineering Trade-Offs in Automatic Differentiation: from TensorFlow and PyTorch to Jax and Julia](https://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/)
+:globe_with_meridians: [Engineering Trade-Offs in Automatic Differentiation: from TensorFlow and PyTorch to Jax and Julia](https://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/) -- detailed blogpost about a comparison of automatic differentiation frameworks, how they work, how they evolved, and their respective pros and cons, including Tensorsflow, PyTorch, JAX and Julia's Zygote.  
 
-:books: Baydin AG, Pearlmutter BA, Radul AA, Siskind JM. Automatic differentiation in machine learning: a survey. *arXiv preprint* (2015). [arXiv:1502.05767](https://arxiv.org/abs/1502.05767)
+:books: Baydin AG, Pearlmutter BA, Radul AA, Siskind JM. Automatic differentiation in machine learning: a survey. *arXiv preprint* (2015). [arXiv:1502.05767](https://arxiv.org/abs/1502.05767) -- overview paper of automatic differentiation as opposed to numeric or symbolic differentiation, explanation of the inner workings.
 
-:books: Innes M, Edelman A, Rackauckas C, Saba E, Shah VB, Tebbutt W. A Differentiable programming system to bridge machine learning and scientific computing. *arXiv preprint* (2018). [arXiv:1907.07587](https://arxiv.org/abs/1907.07587)
+:books: Innes M, Edelman A, Rackauckas C, Saba E, Shah VB, Tebbutt W. A Differentiable programming system to bridge machine learning and scientific computing. *arXiv preprint* (2018). [arXiv:1907.07587](https://arxiv.org/abs/1907.07587) -- paper introducing the `Zygote.jl` package in Julia and explaining its inner workings, including its specific approach to / implementation of automatic differentiation. 
 
 ## Differentiable programming and statistical modelling 
 
@@ -28,8 +28,10 @@
 
 :books: 
 Hackenberg M, Grodd M, Kreutz C, Fischer M, Esins J, Grabenhenrich L, Karagiannidis C, Binder H. Using differentiable programming for flexible statistical modeling. *The American Statistician*, **76(3)**, 270-279 (2021).
-[doi: 10.1080/00031305.2021.2002189](https://doi.org/10.1080/00031305.2021.2002189)
+[doi: 10.1080/00031305.2021.2002189](https://doi.org/10.1080/00031305.2021.2002189) -- paper about the approach presented in the workshop. 
 :computer: [Github repository](https://www.github.com/maren-ha/DifferentiableProgrammingForStatisticalModeling) with Julia code 
+
+:globe_with_meridians: [Youtube video](https://www.youtube.com/watch?v=FihLyzdjN_8) of a talk by Chris Rackauckas about the use and practice of scientific machine learning ($\approx$ machine learning/neural networks combined with dynamic modeling) -- Chris Rackauckas is *the* driving force of the `DifferentialEquations.jl` and the `SciML` (=scientific machine learning) ecosystem in Julia, aiming to combine deep learning and differential equations, check out his other talks or blogposts :) (Youtube or on [his website](https://www.chrisrackauckas.com) and [blog](https://www.stochasticlifestyle.com))
 
 ## Combining neural networks and dynamic modeling 
 
@@ -38,10 +40,13 @@ Hackenberg M, Grodd M, Kreutz C, Fischer M, Esins J, Grabenhenrich L, Karagianni
 :computer: [Github repository](https://github.com/maren-ha/DeepDynamicModelingWithJust2TimePoints) with Julia code. 
 
 :books: Chen RTW, Rubanovy Y, Bettencourt J, Duvenaud DK. Neural ordinary differential equations, in: *Advances in Neural Information Processing Systems*, 
-Bengio S, Wallach H, Larochelle H, Grauman K, Cesa-Bianchi N, Garnett R (eds), **31** (2018). [URL](https://proceedings.neurips.cc/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Paper.pdf)
+Bengio S, Wallach H, Larochelle H, Grauman K, Cesa-Bianchi N, Garnett R (eds), **31** (2018). [URL](https://proceedings.neurips.cc/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Paper.pdf) -- original paper introducing the idea of differentiating through ODE solvers efficiently, in the context of the so-called "neural ODEs", where the idea is to replace the layers of a neural network with continuous dynamics defined by an ODE. 
 
-:books: Rackauckas C, Ma Y, Martensen J, Warner C, Zubov K, Supekar R, Skinner D, Ramadhan A, Edelman A. Universal differential equations for scientific machine learning. *arXiv preprint* (2020). [arXiv:2001.04385](https://arxiv.org/abs/2001.04385); 
+:books: Rackauckas C, Ma Y, Martensen J, Warner C, Zubov K, Supekar R, Skinner D, Ramadhan A, Edelman A. Universal differential equations for scientific machine learning. *arXiv preprint* (2020). [arXiv:2001.04385](https://arxiv.org/abs/2001.04385); -- how can you include neural networks inside an ODE system (e.g., to identify missing terms), many different examples + code in Julia. 
 :computer: [Github repository](https://github.com/ChrisRackauckas/universal_differential_equations) with Julia code.
+
+:books: Dandekar R, Dixit V, Tarek M, Garcia-Valadez A, Rackauckas C. Bayesian Neural Ordinary Differential Equations *arXiv preprint* (2020). [arXiv:2012-07244](https://arxiv.org/abs/2012-07244) -- idea of using symbolic regression to find explicit terms of the neural network components in a universal differential equation, in a Bayesian setting
+
 
 ## The Julia programming language
 
