@@ -88,10 +88,11 @@ For more details on IJulia, see [the docs](https://julialang.github.io/IJulia.jl
 
 * the notebook files for the demo and hands-on part, in a Google Colab version and a Jupyter notebook version `Colab_Practicals.ipynb` and `Jupyter_Practicals.ipynb`
 * the `Project.toml` file specifying the Julia environment (important to have all packages installed in the correct versions)
-* the slides used during the workshop (currently in a draft version): `Slides_Draft.pdf`
+* the slides used during the workshop (including some back up material at the end that I didn't have time to show): `Slides.pdf`
 * the `blogpost` subfolder contains the material for the reading/joint discussion session:
   * the blogpost on differentiable programming we will read in the workshop and discuss in groups in a Markdown and pdf version, `Blogpost_What_is_differentiable_programming.md` and `...pdf`,...
-  * and questions to be answered on the blogpost during the discussion session, again in Markdown and pdf, `Questions_for_discussion.md` and `....pdf`
+  * questions to be answered on the blogpost during the discussion session, again in Markdown and pdf, `Questions_for_discussion.md` and `....pdf`
+  * and the results from the workshop: the flipchart with the data vs. modelling approach coordinate system and the digital white board results
 * the `resources` subfolder contains a list of references used in the workshop and more resources for further reading, structured according to the main workshop topics, including blogposts and code repositories, and the slides of a recent talk I gave about why I use Julia (because I get asked that a lot)
 * the `elephant` subfolder contains a little fun example of Julia code and showing how you actually *can*  fit an elephant with just 4 parameters
 *  the `pictures` subfolder contains all the `.png`s included in this README and the references document (to ensure they render correctly)
