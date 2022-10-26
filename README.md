@@ -109,3 +109,7 @@ All code for the workshop notebooks is written in [Julia](https://julialang.org)
 *  allows to more readily implement scientific ideas that researchers might not have pursued with other tools, specifically when it comes to flexibly integrating different modelling paradigms. 
 
 If you want to know more, I've uploaded the [slides](https://github.com/maren-ha/NORBIS_workshop_differentiable_programming/blob/main/resources/WhyJulia.pdf) of a talk I recently gave about why I use Julia in the `resources` subfolder :blush:
+
+## License 
+
+This repository is hosted under an MIT license, meaning you're free to use any of the material for your own teaching, workshop, etc. - if you do so, please cite this repo and our paper ([doi:10.1002/bimj.202000366](https://doi.org/10.1002/bimj.202000366)) as a reference. Thanks! 
